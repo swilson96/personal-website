@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WDCNZ Mega-Brief Summary"
+title:  "WDCNZ Mega-Short Summary"
 date:   2014-08-14
 categories: blog
 

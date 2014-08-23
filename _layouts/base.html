@@ -38,18 +38,18 @@
                 <img src="/images/{{ site.inc.logo }}">
             </a>
             {% endif %}
-            <a href="/" class="home">Blog</a>
+            <a href="/" class="page-link">Blog</a>
 {% for page in site.pages %}
     {% if page.title %}
             <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
         </nav>
-{% if site.inc.tagline %}
+
         <nav class="tagline">
-            <span>{{ site.inc.tagline }}</span>
+            <a class="home" href="/">{{ site.inc.title }}</a>
         </nav>
-{% endif %}
+
     </header>
 </section>
 
