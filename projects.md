@@ -20,7 +20,7 @@ Tech: Node, Express, MongoDB, Monk, Heroku
 
 It's very much a work in progress at the moment, but feel free to get involved by following [@YouRockSite](http://twitter.com/YouRockSite) on twitter and tweeting with #YouRock.
 
-# <a name="sudoky"></a>Sudoku Solver
+# <a name="sudoku"></a>Sudoku Solver
 [http://sudoku-6.apphb.com/](http://sudoku-6.apphb.com/)
 
 The first program I ever wrote for fun was a Sudoku solver. It lay unused for many years until recently when I remembered it existed. Ok so it's not very original write a sudoku solver but since I had one lying around I thought I'd stick it on the web.
@@ -34,7 +34,7 @@ AppHarbour doesn't let me use my own domain without a fee, and Azure is the same
 
 Yes, it's a web project. I was originally going to use [Weebly](http://www.weebly.com/) (and [here is the result](http://swilson96.weebly.com/)). Weebly is very nice but it wouldn't let me use my own domain and it stuck a load of weebly advertising at the bottom. Weebly also had no support for code snippets. It may or not be feasable to fix that with a Weebly plugin using [SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/) or similar.
 
-I was looking around for something else, even vaguely considering Wordpress, when I randomly came across Jekyll. It seems to be working for now. I'll have to put more effort in to maintain the style and add features, but oh well. The theme is Incorporated, by [Inc](https://sendtoinc.com).
+I was looking around for something else, even vaguely considering Wordpress, when I randomly came across Jekyll. It seems to be working for now. I'll have to put more effort in to maintain the style and add features, but oh well. The theme is based on Incorporated, by [Inc](https://sendtoinc.com), with a few adjustments from me like the addition of a linked-in icon.
 
 I'm actually finding markdown a lot easier to use than the Weebly drag and drop interface.
 
