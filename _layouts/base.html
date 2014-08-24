@@ -61,10 +61,10 @@
         
         <nav>
             <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
-            <a href="/">Blog</a> &middot;
+            <a href="/">Blog</a>
 {% for page in site.pages %}
     {% if page.title %}
-            <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
+            &middot;<a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
         </nav>
