@@ -1,3 +1,10 @@
+info:
+  facebook:     #sendtoinc
+  twitter:      theStarvis
+  github:       swilson96
+  linkedin:     swilson96
+  gplus:        #'101183822199340201470'
+
 inc:
   # Blog Information
   title:        "Simon Wilson"
@@ -8,18 +15,11 @@ inc:
   # Company information
   company:      Simon Wilson
   url:          http://swilson.co.uk/
-
-info:
-  facebook:     #sendtoinc
-  twitter:      theStarvis
-  github:       swilson96
-  linkedin:     swilson96
-  gplus:        #'101183822199340201470'
   
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
+    shortname:  swilson96
   
   # Sharing settings
   sharing:
