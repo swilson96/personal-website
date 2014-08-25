@@ -25,9 +25,9 @@ It's very much a work in progress at the moment, but feel free to get involved b
 
 The first program I ever wrote for fun was a Sudoku solver. It lay unused for many years until recently when I remembered it existed. Ok so it's not very original write a sudoku solver but since I had one lying around I thought I'd stick it on the web.
 
-Tech: C# MVC.NET, Knockout.js, Heroku. The code is [on github](https://github.com/swilson96/sudoku-web-solver), but don't expect it to be pretty.
+Tech: C# MVC.NET, Knockout.js, Heroku, Mono. The code is [on github](https://github.com/swilson96/sudoku-web-solver), but don't expect it to be pretty.
 
-Heroku doesn't directly support .Net, so I'm using this [Mono buildpack](https://github.com/friism/heroku-buildpack-mono), which appears to work for .Net 4.5 only if you _don't_ make the suggested changes to web.config.
+Heroku doesn't directly support .Net (and AppHarbor and Azure don't let me use my own domain for free), so I'm using this [Mono buildpack](https://github.com/friism/heroku-buildpack-mono), which appears to work for .Net 4.5 only if you _don't_ make the suggested changes to web.config.
 
 # <a name="thissite"></a>This Site
 [http://swilson.co.uk/](http://swilson.co.uk/)
