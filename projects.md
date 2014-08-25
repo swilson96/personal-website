@@ -21,13 +21,13 @@ Tech: Node, Express, MongoDB, Monk, Heroku
 It's very much a work in progress at the moment, but feel free to get involved by following [@YouRockSite](http://twitter.com/YouRockSite) on twitter and tweeting with #YouRock.
 
 # <a name="sudoku"></a>Sudoku Solver
-[http://sudoku-6.apphb.com/](http://sudoku-6.apphb.com/)
+[http://sudoku.swilson.co.uk/](http://sudoku.swilson.co.uk/)
 
 The first program I ever wrote for fun was a Sudoku solver. It lay unused for many years until recently when I remembered it existed. Ok so it's not very original write a sudoku solver but since I had one lying around I thought I'd stick it on the web.
 
-Tech: C# MVC.NET, Knockout.js, AppHarbor. The code is [on github](https://github.com/swilson96/sudoku-web-solver), but don't expect it to be pretty.
+Tech: C# MVC.NET, Knockout.js, Heroku. The code is [on github](https://github.com/swilson96/sudoku-web-solver), but don't expect it to be pretty.
 
-AppHarbour doesn't let me use my own domain without a fee, and Azure is the same, so the next step is to get it on Heroku or similar instead. The problem with that is that Heroku doesn't directly support .Net. There's a [Mono buildpack](https://github.com/friism/heroku-buildpack-mono) for that, but it doesn't seem to support .net 4.5, so things like resource bundling don't work (the broken result is at [sudoku6.herokuapp.com](http://sudoku6.herokuapp.com/)).
+Heroku doesn't directly support .Net, so I'm using this [Mono buildpack](https://github.com/friism/heroku-buildpack-mono), which appears to work for .Net 4.5 only if you _don't_ make the suggested changes to web.config.
 
 # <a name="thissite"></a>This Site
 [http://swilson.co.uk/](http://swilson.co.uk/)
