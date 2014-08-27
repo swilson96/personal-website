@@ -22,7 +22,7 @@ There are two problems really: working remotely, and working in a different time
 ## Working remotely
 Working remotely is the easier of the two to solve, and well covered on the internet and at Softwire. So here are some tips:
 
-* Firstly, get your team to put everything in the cloud as much as possible: standups on hangouts, story progress in jira or pivotal tracker (or tool of your choice) not on a whiteboard, use hipchat for team comms, have an online calendar if necessary, all documentation on a wiki, docs on gdocs, etc etc etc. The OW team is a shining example.
+* Firstly, get your team to put everything in the cloud as much as possible: standups on hangouts, story progress in jira or pivotal tracker (or tool of your choice) not on a whiteboard, use hipchat for team comms, have an online calendar if necessary, all documentation on a wiki, docs on gdocs, etc etc etc.
 * If you do use HipChat (or similar) for team comms, make sure that as much conversation as possible does happen in HipChat. It's very easy for all the people in one office to have a face-to-face conversation which never gets recorded in HipChat, leaving the one remote-working team member completely clueless. Ideally use HipChat to have the conversation, but if that's impossible then at least record the consequences somewhere and draw the rest of the team's attention to it.
 * Google Hangouts is great for team conversations, and seems a bit more robust and reliable over long distances than skype
 * Skype is also great for video calls or international phone calls
