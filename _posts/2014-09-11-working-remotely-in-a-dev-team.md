@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working remotely as part of a development team"
-date:   2014-08-28
+date:   2014-09-11
 categories: blog
 
 cover_image: blog-cover.jpg
