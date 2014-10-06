@@ -4,7 +4,7 @@ title:  "Copying hashes from gitk to the clipboard in Windows"
 date:   2014-10-02
 categories: blog
 
-cover_image: blog-cover.jpg
+cover_image: gitk1.png
 
 excerpt: "Do you use windows, cygwin, and git, and does gitk annoy you like crazy when you try to copy and paste commit hashes?"
 ---
