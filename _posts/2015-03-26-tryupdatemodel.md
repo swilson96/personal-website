@@ -38,18 +38,3 @@ Controller.ControllerContext = controllerContext;
 {% endhighlight %}
 
 If you know of a cleaner solution, please let me know!
-
-```csharp
-// Value provider, for methods like TryUpdateModel
-// http://stackoverflow.com/questions/530133/mocking-requirements-for-tryupdatemodel-in-asp-net-rc1
-Controller.ValueProvider = new FormCollection().ToValueProvider();
-
-// Mock controllerContext, for methods like TryUpdateModel
-// http://stackoverflow.com/questions/32640/mocking-asp-net-mvc-controller-context
-var request = new Mock<HttpRequestBase>();
-request.Setup(r => r.HttpMethod).Returns("POST");
-var mockHttpContext = new Mock<HttpContextBase>();
-mockHttpContext.Setup(c => c.Request).Returns(request.Object);
-var controllerContext = new ControllerContext(mockHttpContext.Object, new RouteData(), new Mock<ControllerBase>().Object);
-Controller.ControllerContext = controllerContext;
-```
