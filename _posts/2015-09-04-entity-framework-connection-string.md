@@ -4,7 +4,7 @@ title:  "The specified named connection is either not found in the configuration
 date:   2015-09-04
 categories: blog
 
-cover_image: FullEntityConnectionError.PNG
+cover_image: FullEntityConnectionError.png
 
 excerpt: "There are many possible causes of this .NET Entity Framework error, but here's one that caught me out."
 ---
@@ -21,7 +21,7 @@ A client recently had their hosting provider move their database for reasons I w
 
 Interestingly, you could go to the homepage, log in, and go to the user management screens. But if you tried to do anything else, e.g. view and of the EF entities, you would see this error:
 
-![This error could mean a lot of things](/images/SmallEntityConnectionError.PNG)
+![This error could mean a lot of things](/images/SmallEntityConnectionError.png)
 
 So clearly the membership connection worked and the entity framework connection didn't. I checked and double checked for differences but the server, username, password were all identical. I checked everything else in the connection string and it was all identical to the web.config when the app worked. I even got so desperate I tried messing around with the escaped quotes, replacing the escaped &quot; with unescaped single quotes and trying various combinations!
 
