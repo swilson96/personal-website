@@ -2,7 +2,7 @@
 layout: post
 title:  "The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid."
 date:   2015-09-04
-categories: blog, .NET
+categories: blog
 
 cover_image: FullEntityConnectionError.PNG
 
