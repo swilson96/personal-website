@@ -21,19 +21,12 @@ inc:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  swilson96
   
-  # Sharing settings
-  sharing:
-    twitter:    true
-    facebook:   true
-    gplus:      true
-    hn:         false
-    
   
  # Analytics     
   analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
+    # Add tracking code in _includes/_google-analytics.html
+    google: true
+  
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
