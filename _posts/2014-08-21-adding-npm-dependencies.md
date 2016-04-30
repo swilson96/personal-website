@@ -7,6 +7,7 @@ categories: blog
 cover_image: blog-cover.jpg
 
 excerpt: "Use the --save option when installing node modules"
+
 ---
 Just a quick tip. If you're learning node you don't usually see this on the tutorials, so you might not know it. When you install a new NPM dependency for your project, like this
 
