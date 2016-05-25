@@ -47,7 +47,7 @@ TFS doesn't integrate with Crucible or many other decent review tools, so you're
 * TFS doesn't delete empty folders, which leaves clutter
 * Can't specify lock-before-edit rules for e.g. only documents, or with a local workspace
 * Users are closely tied to Active Directory: so you lose all the history when migrating to a new AD system
-* There is little or no rescue from git clients like Git-TFS, which give you local commits and branches, but have other downsides because of the strange quirks of TFS. I'll go into my experience with Git-TFS in a later blog post.
+* There is little or no rescue from git clients like Git-TFS, which give you local commits and branches, but have other downsides because of the strange quirks of TFS. I'll go into my experience with Git-TFS in [a later blog post](/blog/2016/05/25/git-tfs/).
 
 
 # PROS
