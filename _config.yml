@@ -11,29 +11,31 @@ inc:
   subtitle:     "Web developer, project manager, ex-Londoner enjoying life in New Zealand"
   cover_image:  blog-cover.jpg
   logo:         # logo.png
-  
+
   # Company information
   company:      Simon Wilson
   url:          http://swilson.co.uk/
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  swilson96
-  
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
     # Add tracking code in _includes/_google-analytics.html
     google: true
-  
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://swilson.co.uk
+author:      simon.wilson@softwire.com (Simon Wilson)
+
 source:      .
 destination: ./_site
 plugins_dir: ./_plugins
@@ -106,5 +108,5 @@ assets:
   cache: false
   gzip: [ text/css, application/javascript ]
   debug: false
-  
+
 gems: [jekyll-paginate]
