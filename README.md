@@ -29,7 +29,12 @@ $ bundle install
 
 To compile and run locally (on default port 4000):
 ```
-$ jekyll server
+$ bundle exec jekyll server
+```
+
+To just build (and watch)
+```
+$ bundle exec jekyll build --watch
 ```
 
 To publish, make sure Rakefile has the correct github repo (it will force-push the built site there):

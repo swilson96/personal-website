@@ -5,10 +5,20 @@ permalink: /projects/
 url: /projects/
 ---
 
+* [blossom](#blossom)
 * [#YouRock](#yourock)
 * [Physio Assessment Tracker](#physio)
 * [Sudoku Solver](#sudoku)
 * [This Site](#thissite)
+
+# <a name="blossom"></a>#Blossom
+[http://swilson.co.uk/blossom/](http://swilson.co.uk/blossom/)
+
+This site basically provides a UI to enter a graph and execute the weighted Edmonds blossom algorithm for finding maximal pairings. Several people can share an URL and edit the grid/graph at the same time, syncing with firebase.
+
+Tech: React, Redux, Firebase. [Code.](https://github.com/swilson96/blossom)
+
+The inspiration was to find an optimal pairing for a Softwire random coffee draw, a scheme to get people to get to know someone else in the company over a coffee. We wanted to choose a pairing of people (nodes) based on how well people already knew each other (weighted edges).
 
 # <a name="yourock"></a>#YouRock
 [http://www.yourocksite.com/](http://www.yourocksite.com/)
@@ -49,5 +59,5 @@ I was looking around for something else, even vaguely considering Wordpress, whe
 I'm actually finding markdown a lot easier to use than the Weebly drag and drop interface.
 
 Tech: Jekyll, Markdown, some fiddling with HTML and SCSS.
- 
+
 The code is even [on github](https://github.com/swilson96/swilson96.github.io) (the site is hosted on github pages).
