@@ -11,7 +11,7 @@ url: /projects/
 * [Sudoku Solver](#sudoku)
 * [This Site](#thissite)
 
-# <a name="blossom"></a>#Blossom
+# <a name="blossom"></a>Blossom
 [http://swilson.co.uk/blossom/](http://swilson.co.uk/blossom/)
 
 This site basically provides a UI to enter a graph and execute the weighted Edmonds blossom algorithm for finding maximal pairings. Several people can share an URL and edit the grid/graph at the same time, syncing with firebase.
